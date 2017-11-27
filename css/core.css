@@ -1,0 +1,217 @@
+@font-face {
+    font-family: lineto900;
+    src: url(../fonts/lineto-circular-pro-black.ttf);
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: lineto700;
+    src: url(../fonts/lineto-circular-pro-bold.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: lineto500;
+    src: url(../fonts/lineto-circular-pro-medium.ttf);
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    transition: 0.2s;
+    
+    scroll-behavior: smooth;
+}
+
+
+body
+{
+    font-family: "lineto700";
+	font-size:16px;
+    line-height: 1.5;
+    color: #151515;
+    margin: 0;
+    
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+br
+{
+	line-height:1.8;
+}
+
+a
+{
+    text-decoration: none;
+    color: #b51e28;
+}
+
+h1, h2, h3, h5 {
+    font-family: "lineto900";
+    font-weight: 900;
+    margin: 0;
+    color: #b51e28;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    padding: 0.75rem 1rem;
+    border-radius: 5rem;
+    box-shadow: 0 0.25rem 2rem rgba(174,174,174, 0.5);
+    min-width: 10rem;
+    margin: 0 auto;
+    font-family: "lineto900";
+
+    color: #151515;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 0.25rem 1rem rgba(174,174,174, 0.75);
+    color: #777;
+}
+.button:focus {
+    box-shadow: 0 0.25rem 1.5rem rgba(174,174,174, 1);
+    color: #555;
+}
+
+.hero{
+    padding: 0.5rem;
+}
+.hero .head {
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+.hero .subhead {
+    font-family: "lineto900";
+    font-size: 1.5rem;
+}
+.hero .subhead a {
+    color: #A3A3A3;
+}
+.hero .subhead a:hover {
+    color: #888;
+}
+.hero .subhead a:focus {
+    color: #555;
+}
+
+
+.section {
+    margin: 8rem auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+.section h5 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.section .sub-small {
+    margin-bottom:0.5rem;
+}
+.section .sub-small .tag{
+    text-transform: uppercase;
+    color: #A3A3A3;
+    font-size: 0.75rem;
+    padding: 0.25rem;
+}
+.section p {
+    margin: 0;
+    font-size: 1rem;
+}
+.section .action {
+    margin-top: 2rem;
+}
+
+.about .box{
+    margin: 3rem 1rem;
+    font-family: "lineto900";
+    font-weight: 900;
+    font-size: 1.25rem;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.contact {
+    padding-bottom: 8rem;
+}
+
+.contact a{
+    font-size: 2rem;
+    font-family: "lineto900";
+    font-weight: 900;
+    color: #fff;
+    background: #b51e28;
+    padding: 0.5rem 2rem;
+    
+    -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+    
+}
+.contact a:hover {
+    color: rgba(255,255,255,0.8);   
+}
+.contact a svg {
+    height: 2rem!important;
+    width: 2rem!important;
+}
+.contact a:hover svg {
+    transform: translate(1rem, 0rem);
+    opacity: 0.4;
+}
+.contact a svg path {
+    fill: #fff;
+}
+
+.social
+{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30rem;
+}
+.social .icon svg:hover
+{
+    opacity: 0.4;
+}
+.social .icon svg:focus
+{
+    opacity: 0.4;
+}
+
+.o-lazy {
+    background: #f7f5f5;
+    
+    position: relative;
+    width:100%;
+    padding-top: 75%;
+}
+
+.o-lazy img {
+    position: absolute;
+    top: 0;
+}
