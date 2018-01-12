@@ -12,6 +12,22 @@
 
 @media only screen and (min-width: 48rem)
 {
+    
+    .navbar {
+        
+    }
+    
+    .navbar ul {
+        margin: 0;
+    }
+    
+    .navbar ul li {
+        display: inline;
+        margin-left: 4rem;
+        margin-right: 0rem;
+    }
+    
+    
     .hero{
         padding: 4rem 0rem;
     }

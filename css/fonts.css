@@ -1,0 +1,19 @@
+@font-face {
+    font-family: lineto900;
+    src: url(../fonts/lineto-circular-pro-black.ttf);
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: lineto700;
+    src: url(../fonts/lineto-circular-pro-bold.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: lineto500;
+    src: url(../fonts/lineto-circular-pro-medium.ttf);
+    font-weight: normal;
+}
+

@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    transition: 0.2s;
+    
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navbar ul {
+    list-style: none; 
+    padding: 0;
+    margin-top: 1rem;
+    
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 0rem;
+    margin-right: 2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    
+}
+
+.head {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+
+.box {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-top: 4rem;
+}
+
+.box a {
+    color: #151515;
+}

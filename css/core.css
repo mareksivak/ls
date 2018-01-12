@@ -28,7 +28,7 @@
 
 body
 {
-    font-family: "lineto700";
+    font-family: "lineto500";
 	font-size:16px;
     line-height: 1.5;
     color: #151515;
@@ -58,6 +58,10 @@ a
     color: #b51e28;
 }
 
+ul {
+    margin: 0;
+}
+
 h1, h2, h3, h5 {
     font-family: "lineto900";
     font-weight: 900;
@@ -65,8 +69,25 @@ h1, h2, h3, h5 {
     color: #b51e28;
 }
 
+h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+
+h5 {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: "lineto500";
+    margin: 1rem 0;
+}
+
 img {
     max-width: 100%;
+}
+
+.def-padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .button {
