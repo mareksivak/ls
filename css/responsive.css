@@ -1,10 +1,4 @@
-.row {
-    margin: 0;
-}
 
-.no-padding {
-    padding: 0;
-}
 
 @media only screen and (max-width: 48rem)
 {
@@ -22,7 +16,6 @@
     }
     
     .navbar ul li {
-        display: inline;
         margin-left: 4rem;
         margin-right: 0rem;
     }
