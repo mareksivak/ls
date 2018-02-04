@@ -9,3 +9,10 @@ $(window).ready(function() {
         $('.o-lazy img').removeClass('animated800 fadeIn');
     });
 });
+
+
+$( document ).ready(function() {
+};
+                    
+                    
+                    
