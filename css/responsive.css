@@ -6,66 +6,11 @@
 
 @media only screen and (min-width: 48rem)
 {
-    
-    .navbar {
-        
+    .story .left {
+        padding-right: 2rem;
     }
-    
-    .navbar ul {
-        margin: 0;
-    }
-    
-    .navbar ul li {
-        margin-left: 4rem;
-        margin-right: 0rem;
-    }
-    
-    
-    .hero{
-        padding: 4rem 0rem;
-    }
-    .hero h1 {
-        font-size: 4rem;
-        margin-top: 3rem;
-    }
-    .hero .subhead {
-        
-        font-size: 2.5rem;
-    }
-    
-    .section {
-        margin: 0 auto;
-        margin-top: 14rem;
-        margin-bottom: 14rem;
-    }
-    .section .block-desktop {
-        margin-top: 1rem;
-    }
-    .section .block-mobile {
-         margin-top: 1rem;
-    } 
-    .section h5 {
-        font-size: 2.5rem;
-    }
-    .section .sub-small .tag{
-        font-size: 1rem;
-    }
-    .section p {
-        font-size: 1.5rem;
-    }
-    .about .box{
-        font-size: 2.5rem;
-        margin-bottom: 10rem;
-    }
-    
-    .contact a{
-        font-size: 3rem;
-    }
-    
-    .social
-    {
-        margin-top: 10rem;
-        margin-bottom: 1rem;
+    .story .right {
+        padding-left: 2rem;
     }
 }
 

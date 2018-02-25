@@ -12,7 +12,7 @@ $(window).ready(function() {
 
 
 $( document ).ready(function() {
-};
+});
                     
                     
                     

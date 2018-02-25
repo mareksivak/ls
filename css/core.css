@@ -17,6 +17,12 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: lineto400;
+    src: url(../fonts/lineto-circular-pro-book.ttf);
+    font-weight: normal;
+}
+
 * {
     box-sizing: border-box;
     -webkit-box-sizing: border-box; 
@@ -28,10 +34,10 @@
 
 body
 {
-    font-family: "lineto500";
+    font-family: "lineto400";
 	font-size:16px;
     line-height: 1.5;
-    color: #151515;
+    color: #353535;
     margin: 0;
     
     display: flex;
