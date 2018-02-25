@@ -12,6 +12,9 @@
     .story .right {
         padding-left: 2rem;
     }
+    .story .bottom {
+        margin-top: 2rem;
+    }
 }
 
 @media only screen and (min-width: 62rem)
