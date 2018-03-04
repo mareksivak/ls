@@ -6,6 +6,9 @@
 
 @media only screen and (min-width: 48rem)
 {
+    .navbar ul {
+        margin-top: 0;
+    }
     .story .left {
         padding-right: 2rem;
     }

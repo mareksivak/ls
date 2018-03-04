@@ -102,6 +102,10 @@ html {
     margin-top: 8rem;
     margin-bottom: 8rem;
 }
+.story .navbar {
+    
+    margin: 0;
+}
 .story .par {
     margin-top: 1rem;
     margin-bottom: 1rem;
