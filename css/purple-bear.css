@@ -17,9 +17,7 @@ html {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.navbar .logo {
-        font-family: "lineto900";
-}
+
 .navbar ul {
     list-style: none; 
     padding: 0;
@@ -35,10 +33,16 @@ html {
 
 .navbar a {
     text-decoration: none;
+    color: black;
 }
 
 .navbar a:hover {
-    
+    text-decoration: underline;
+    color: #b51e28;
+}
+.navbar .logo a {
+        font-family: "lineto900";
+        color: #b51e28;
 }
 
 .head {
