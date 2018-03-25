@@ -17,7 +17,9 @@ html {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
+.navbar .logo {
+        font-family: "lineto900";
+}
 .navbar ul {
     list-style: none; 
     padding: 0;
@@ -93,6 +95,8 @@ html {
 }
 .story .cover h3 {
     color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.25;
 }
 
 .story .container {
